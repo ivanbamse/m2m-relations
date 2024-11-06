@@ -1,6 +1,6 @@
-from django.contrib import admin
+﻿from django.contrib import admin
 from django.forms import BaseInlineFormSet
-from jsonschema.exceptions import ValidationError
+from django.core.exceptions import ValidationError
 
 from .models import Article, Scope, Tag
 
